@@ -1,5 +1,5 @@
+<img align="center" src="./assets/img/logo1.png"/>
 # LogBook - Diving Logbook Online 
-#                                ![logo](./assets/img/logo1.png) 
 
 Un'applicazione web per la gestione digitale del proprio diario di immersioni subacquee. Progetto sviluppato per il corso di Programmazione Web e Mobile presso l'Università degli Studi di Milano.
 
@@ -229,6 +229,7 @@ Per segnalare bug o proporre miglioramenti, apri una issue su GitHub.
 ## Ringraziamenti
 
 Progetto realizzato nell'ambito del corso universitario di Programmazione Web e Mobile.
+
 
 
 
