@@ -12,7 +12,7 @@ LogBook è un'applicazione web che consente ai subacquei di registrare e gestire
 
 ## Documentazione
 
-Per una descrizione dettagliata del progetto, dell'architettura e delle scelte implementative, consulta la [Relazione del Progetto](../Relazione_LogBook.pdf).
+Per una descrizione dettagliata del progetto, dell'architettura e delle scelte implementative, consulta la [Relazione del Progetto](./Relazione_LogBook.pdf).
 
 ## Funzionalità
 
@@ -216,6 +216,7 @@ LogBook/
 ## Licenza
 
 ISC
+
 
 
 
