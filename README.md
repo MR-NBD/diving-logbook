@@ -12,7 +12,7 @@ LogBook è un'applicazione web che consente ai subacquei di registrare e gestire
 
 ## Documentazione
 
-Per una descrizione dettagliata del progetto, dell'architettura e delle scelte implementative, consulta la [Relazione del Progetto](../Relazione_Ameglio.pdf).
+Per una descrizione dettagliata del progetto, dell'architettura e delle scelte implementative, consulta la [Relazione del Progetto](./Relazione_Ameglio.pdf).
 
 ## Funzionalità
 
@@ -213,25 +213,11 @@ LogBook/
 - Condivisione immersioni con altri utenti
 - Versione mobile/responsive migliorata
 
-## Autore
-
-**Alberto Ameglio**
-
-Progetto sviluppato per il corso di Programmazione Web e Mobile - Università degli Studi di Milano (UNIMI)
-
 ## Licenza
 
 ISC
 
----
 
-## Contatti e Supporto
-
-Per segnalare bug o proporre miglioramenti, apri una issue su GitHub.
-
-## Ringraziamenti
-
-Progetto realizzato nell'ambito del corso universitario di Programmazione Web e Mobile.
 
 
 
