@@ -1,0 +1,40 @@
+<h2 class="my-5">Aggiungi una nuova Immersione</h2>
+
+<form action="aggiungi_immersione" class="row g-3" method="post">
+  <div class="form-group col-12">
+    <label for="sito">Sito Immersione</label>
+    <input type="text" class="form-control" name="sito">
+  </div>
+  <div class="form-group col-md-6">
+    <label for="luogo" class="form-label">Luogo</label>
+    <input type="text" class="form-control" name="luogo">
+  </div>
+  <div class="form-group col-md-6">
+    <label for="diving" class="form-label">Diving</label>
+    <input type="text" class="form-control" name="diving">
+  </div>
+  <div class="form-group col-12">
+    <label for="indirizzo" class="form-label">Indirizzo Diving</label>
+    <input type="text" class="form-control" name="indirizzo">
+  </div>
+  <div class="form-group col-md-4">
+    <label for="pmax" class="form-label">Profondità massima</label>
+    <input type="text" class="form-control" name="pmax">
+  </div>
+  <div class="form-group col-md-4">
+    <label for="tmax" class="form-label">Tempo totale</label>
+    <input type="text" class="form-control" name="tmax">
+  </div>
+  <div class="form-group col-md-4">
+    <label for="mixfondo" class="form-label">Miscela di fondo</label>
+    <input type="text" class="form-control" name="mixfondo">
+  </div>
+  <div class="form-group col-12">
+    <label for="contenuto">Note</label>
+    <textarea class="form-control" name="testo"></textarea>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn" style="background-color: #0a91f2" name="aggiungi">Invia</button>
+  </div>
+</form>
+

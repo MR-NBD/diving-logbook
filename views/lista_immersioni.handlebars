@@ -1,0 +1,21 @@
+<h2>Lista delle immersioni</h2>
+
+{{#each immersioni}}
+<div class="card card-body mb-5">
+    <h3><b>{{sito}}</b></h3>
+    <p>Luogo: <b>{{luogo}}</b>        al diving: <b>{{diving}}</b></p>
+    <p>Indirizzo del diving:  <b>{{indirizzo}}</b></p>
+    <p>Profondità massima: <b>{{pmax}}</b> con tempo di immersione: <b>{{pmax}}</b>.      Miscela: <b>{{mixfondo}}</b></p>
+    <p>{{contenuto}}</p>
+    <a class="btn btn-primary btn-block mb-3" href="modifica_immersione/{{id}}">Modifica</a>
+
+    <form action="/lista_immersioni/{{id}}?_method=DELETE" method="post">
+        <input type="hidden" name="_method" value="DELETE">
+        <input type="submit" class="btn btn-danger btn-block" value="Cancella">
+
+    </form>
+
+</div>
+{{else}}
+<h4>Non c'è nessuna immersione archiviata</h4>
+{{/each}}

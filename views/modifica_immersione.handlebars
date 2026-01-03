@@ -1,0 +1,43 @@
+<h3>Modifica le tue immersioni</h3>
+
+<div class="card card-body mt-5">
+  <form action="/lista_immersioni/{{immersione.id}}?_method=POST" class="row g-3" method="post">
+    <input type="hidden" name="_method" value="POST">
+    <div class="form-group col-12">
+    <label for="sito">Sito Immersione</label>
+    <input type="text" class="form-control" name="sito" value="{{immersione.sito}}">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="luogo" class="form-label">Luogo</label>
+      <input type="text" class="form-control" name="luogo" value="{{immersione.luogo}}">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="diving" class="form-label">Diving</label>
+      <input type="text" class="form-control" name="diving" value="{{immersione.diving}}">
+    </div>
+    <div class="form-group col-12">
+      <label for="indirizzo" class="form-label">Indirizzo Diving</label>
+      <input type="text" class="form-control" name="indirizzo" value="{{immersione.indirizzo}}">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="pmax" class="form-label">Profondità massima</label>
+      <input type="text" class="form-control" name="pmax" value="{{immersione.pmax}}">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="tmax" class="form-label">Tempo totale</label>
+      <input type="text" class="form-control" name="tmax" value="{{immersione.tmax}}">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="mixfondo" class="form-label">Miscela di fondo</label>
+      <input type="text" class="form-control" name="mixfondo" value="{{immersione.mixfondo}}">
+    </div>
+    <div class="form-grou col-12">
+      <label for="contenuto">Note</label>
+      <textarea class="form-control" name="testo">{{immersione.contenuto}}</textarea>
+    </div>
+    <div class="form-grou col-12"></div><div class="form-grou col-12"></div><div class="form-grou col-12"></div><div class="form-grou col-12"></div><div class="form-grou col-12"></div><div class="form-grou col-12"></div><div class="form-grou col-12"></div><div class="form-grou col-12"></div><div class="form-grou col-12"></div>
+    <div class="form-group col-12">
+    <button type="submit" class="btn"  style="background-color: #0a91f2" name="aggiungi">Invia</button>
+    </div>
+  </form>
+</div>
