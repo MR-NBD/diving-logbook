@@ -1,4 +1,6 @@
-<img align="center" src="./assets/img/logo1.png"/>
+<div align="center">
+  <img src="./assets/img/logo1.png" alt="Logo LogBook">
+</div>
 
 # LogBook - Diving Logbook Online 
 
@@ -230,6 +232,7 @@ Per segnalare bug o proporre miglioramenti, apri una issue su GitHub.
 ## Ringraziamenti
 
 Progetto realizzato nell'ambito del corso universitario di Programmazione Web e Mobile.
+
 
 
 
